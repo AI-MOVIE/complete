@@ -10,12 +10,12 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./ressources/css/styles.css"/>
-    <title>Registro de usuario</title>
+    <title>Register</title>
 </head>
 <body>
     <main>
@@ -30,17 +30,17 @@
         ?>
             <div class="input-form">
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="Escribe tu email"/>
+                <input type="email" name="email" id="email" placeholder="write your email"/>
             </div>
             <div class="input-form">
                 <label for="password">Password:</label>
-                <input type="password" name="password" id="password" placeholder="Introduce tu contraseña"/>
+                <input type="password" name="password" id="password" placeholder="password"/>
             </div>
-                <button type="submit" form="login-form" value="Submit">Registrar</button>
+                <button type="submit" form="login-form" value="Submit">Register</button>
                 <?php
             }
         ?>
-            <a href="index.php" class="go-back-button" >Volver</a>
+            <a href="form.php" class="go-back-button" >Back</a>
         </form>
     </main>
 </body>
