@@ -50,9 +50,9 @@
 
 		public function get_confirmation(){
 			if($this->result_register){
-				return 'Usuario creado con éxito';
+				return 'User created successfully';
 			} else {
-				return 'El email ya existe en el sistema';
+				return 'The email already exists in the system';
 			}
 		}
 		
