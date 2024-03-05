@@ -4,7 +4,7 @@
     unset($_SESSION['valid']);
     session_destroy();
 
-    header('Location: index.php');
+    header('Location: form.php');
 
 
 ?>
