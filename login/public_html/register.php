@@ -19,7 +19,7 @@
 </head>
 <body>
     <main>
-        <img src="./ressources/img/garaje-logo.jpg" width="200px" height="200px">
+        <img src="login/public_html/ressources/img/image (1).png" width="200px" height="200px">
         <hr>
         <form action="" method="POST" id="login-form">
 
