@@ -4,11 +4,11 @@
     <main>
         <img src="./ressources/img/garaje-logo.jpg" width="200px" height="200px">
         <hr>
-        <h2 class="white">Tu información de perfil</h2>
+        <h2 class="white">Your profile information</h2>
         <hr>
         <section class="white">
-            <p>Tu email es <?php echo $_SESSION['email'];?> </p>
-            <p>Esta información la hemos recuperado usando las sesiones</p>
+            <p>Your email is <?php echo $_SESSION['email'];?> </p>
+            <p>We have recovered this information using the sessions</p>
         </section>
     </main>
 </body>
