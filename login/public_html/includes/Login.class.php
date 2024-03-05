@@ -22,10 +22,10 @@
                     $_SESSION['valid'] = true;
                     header('Location: home.php');
                  } else {
-                    header('Location: index.php');
+                    header('Location: form.php');
                  }
             } else {
-                header('Location: index.php');
+                header('Location: form.php');
             }
 
 
